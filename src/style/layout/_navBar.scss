@@ -1,0 +1,31 @@
+.scrolled-down{
+  transform: translateY(-100%); transition: all 0.3s ease-in-out;
+}
+.scrolled-up{
+  transform: translateY(0); transition: all 0.3s ease-in-out;
+}
+
+.navbar {
+  background-color: #ffffff !important;
+  border-bottom: 10px, #62ebeb;
+}
+@media (max-width: 768px) {
+  .navbar-right {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-right {
+    display: block;
+  }
+}
+#navbarSupportedContent {
+  background-color: #ffffff;
+  text-align: center;
+}
+.brand-image {
+  border-radius: 50%;
+  fill: #62ebeb;
+  padding: 0;
+}
