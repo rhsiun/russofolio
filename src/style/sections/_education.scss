@@ -1,4 +1,4 @@
-#education {
+#experiences {
   background-color: $white-color;
   color: $dark-blue-text;
   margin-top: -10rem;
@@ -15,7 +15,7 @@
     padding-top: 5rem;
   }
 
-  .education-wrapper {
+  .experience-wrapper {
     @include respond(phone) {
       margin-bottom: 0.2rem;
     }
