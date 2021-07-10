@@ -23,7 +23,6 @@
     @include respond(phone) {
       padding-bottom: 5rem;
     }
-
     &__image {
       display: flex;
       height: 100%;
@@ -37,6 +36,16 @@
         padding-bottom: 6.4rem;
       }
     }
+
+    // #corousel_Wrapper {
+    //   align-items: center;
+    //   justify-content: center;
+    //   .carousel {
+    //     position: relative;
+    //     width: 300px;
+    //     height: 150px;
+    //   }
+    // }
 
     &__info {
       display: flex;
