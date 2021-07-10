@@ -44,7 +44,7 @@
         font-size: $mid-font-size;
 
         @include respond(phone) {
-          font-size: 2rem;
+          font-size: $mid-font-size;
         }
       }
 
@@ -54,7 +54,7 @@
         font-size: $role-font-size;
 
         @include respond(phone) {
-          font-size: 2rem;
+          font-size: $role-font-size;
         }
       }
 
@@ -79,7 +79,7 @@
 
         @include respond(phone) {
           margin-top: 0;
-          font-size: 2rem;
+          font-size: $small-font-size;
         }
       }
 
@@ -90,7 +90,7 @@
         font-size: $small-font-size;
 
         @include respond(phone) {
-          font-size: 2rem;
+          font-size: $small-font-size;
         }
       }
 
