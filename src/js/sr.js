@@ -51,6 +51,23 @@ export default function() {
       }, defaultProps)
   );
 
+  /* Education Section */
+  ScrollReveal().reveal('.education-wrapper__text', 
+    assignProps(
+      {
+        delay: 600,
+        origin: 'bottom'
+      }, defaultProps)
+  );
+
+  ScrollReveal().reveal('.education-wrapper__details', 
+    assignProps(
+      {
+        delay: 1000,
+        origin: window.innerWidth > 768 ? 'left' : 'bottom'
+      }, defaultProps)
+  );
+
   /* About Section */
   ScrollReveal().reveal('.about-wrapper__image', 
     assignProps(
